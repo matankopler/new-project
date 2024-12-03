@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebrew Date Converter</title>
+    <script src="date.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Convert Gregorian Date to Hebrew Date</h1>
+    <label for="dateInput">Select a date:</label>
+    <input type="date" id="dateInput">
+    <button onclick="convertDate()">Convert</button>
+    <div class="result" id="result"></div>
+
+</body>
+
+</html>
